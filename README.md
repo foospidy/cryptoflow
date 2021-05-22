@@ -38,3 +38,12 @@ Currently supported exchanges are:
 ### Configuring Cryptoflow
 
 If you added the CRYPTOFLOW_CONFIG variable you can adjust buy options there. Alternatively, you can update the buy options in `cryptoflow/config.py`. 
+
+## Adding New Coins
+
+There are two types of DAGs:
+
+- Buy The Dip: btd_\<ticker\>.py
+- Dollar Cost Average: dca_\<ticker\>.py
+
+To add a new coin DAG, copy an existing DAG (btd or dca) and rename it with the coin ticker.
