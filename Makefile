@@ -11,15 +11,15 @@ clean:
 	rm -rf .env
 
 lint:
-	pylint btd_btc.py
-	pylint dca_btc.py
-	pylint check_orders.py
-	pylint cryptoflow/__init__.py
-	pylint cryptoflow/bittrex.py
-	pylint cryptoflow/buyatmarket.py
-	pylint cryptoflow/buythedip.py
-	pylint cryptoflow/config.py
-	pylint cryptoflow/slack.py
+	.env/bin/pylint btd_btc.py
+	.env/bin/pylint dca_btc.py
+	.env/bin/pylint check_orders.py
+	.env/bin/pylint cryptoflow/__init__.py
+	.env/bin/pylint cryptoflow/bittrex.py
+	.env/bin/pylint cryptoflow/buyatmarket.py
+	.env/bin/pylint cryptoflow/buythedip.py
+	.env/bin/pylint cryptoflow/config.py
+	.env/bin/pylint cryptoflow/slack.py
 	
 dags:
 	cp -R cryptoflow ~/airflow/dags/
