@@ -40,7 +40,7 @@ args = {
 dag = DAG(
     dag_id='btd_{}'.format(ASSET.lower()),
     default_args=args,
-    schedule_interval=get_btd_config(ASSET, 'schedule'),
+    schedule_interval="*/60 * * * *",
     start_date=days_ago(0),
     catchup=False,
     dagrun_timeout=timedelta(minutes=1),
