@@ -24,13 +24,13 @@ args = {
 dag = DAG(
     dag_id='dca_{}'.format(ASSET.lower()),
     default_args=args,
-    schedule_interval=SCHEDULE,
+    schedule_interval="*/60 * * * *",
     start_date=days_ago(0),
     catchup=False,
     dagrun_timeout=timedelta(minutes=1),
     tags=['crypto', 'dollar_cost_average'],
     params={
-        "amount_usd": AMOUNT_USD
+        "amount_usd": "5"
     }
 )
 
@@ -56,7 +56,7 @@ def do_dollar_cost_average():
 dollar_cost_average = PythonOperator(
     task_id='dollar_cost_average',
     python_callable=do_dollar_cost_average,
-    op_kwargs={ "amount_usd": AMOUNT_USD },
+    op_kwargs={ "amount_usd": "5" },
     dag=dag,
 )
 # [END dollar_cost_average]

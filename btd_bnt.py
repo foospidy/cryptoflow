@@ -40,14 +40,14 @@ args = {
 dag = DAG(
     dag_id='btd_{}'.format(ASSET.lower()),
     default_args=args,
-    schedule_interval=SCHEDULE,
+    schedule_interval="*/60 * * * *",
     start_date=days_ago(0),
     catchup=False,
     dagrun_timeout=timedelta(minutes=1),
     tags=['crypto', 'buy_the_dip'],
     params={
-        "dip_price": DIP_PRICE,
-        "amount_usd": AMOUNT_USD
+        "dip_price": "",
+        "amount_usd": "5"
     }
 )
 
@@ -78,7 +78,7 @@ def do_is_dip(**kwargs):
 is_dip = BranchPythonOperator(
     task_id='is_dip',
     python_callable=do_is_dip,
-    op_kwargs={ "dip_price": DIP_PRICE },
+    op_kwargs={ "dip_price": "" },
     dag=dag,
 )
 # [END is_dip]
@@ -107,7 +107,7 @@ def do_buy_the_dip(**kwargs):
 buy_the_dip = PythonOperator(
     task_id='buy_the_dip',
     python_callable=do_buy_the_dip,
-    op_kwargs={ "amount_usd": AMOUNT_USD },
+    op_kwargs={ "amount_usd": "5" },
     dag=dag,
 )
 # [END buy_the_dip]
