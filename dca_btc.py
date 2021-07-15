@@ -56,7 +56,7 @@ def do_dollar_cost_average():
 dollar_cost_average = PythonOperator(
     task_id='dollar_cost_average',
     python_callable=do_dollar_cost_average,
-    op_kwargs={ "amount_usd": "5" },
+    op_kwargs={ "dip_price": "0", "amount_usd": "5" },
     dag=dag,
 )
 # [END dollar_cost_average]
