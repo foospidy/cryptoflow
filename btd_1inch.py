@@ -107,7 +107,7 @@ def do_buy_the_dip(**kwargs):
 buy_the_dip = PythonOperator(
     task_id='buy_the_dip',
     python_callable=do_buy_the_dip,
-    op_kwargs={ "amount_usd": "5" },
+    op_kwargs={ "dip_price": "", "amount_usd": "5" },
     dag=dag,
 )
 # [END buy_the_dip]
