@@ -156,7 +156,7 @@ class BuyTheDip():
         print("Best price {}".format(best))
         return best
 
-    def buy_dip(self, best=None, spend=None, satoshis=8):
+    def buy_dip(self, best=None, spend=None, smallest_unit=8):
         """
         Buy the dip!
         """
@@ -165,7 +165,7 @@ class BuyTheDip():
         order_message = None
 
         # get size based on spend limit and best price
-        size = round(float(spend) / float(best['price']), satoshis)
+        size = round(float(spend) / float(best['price']), smallest_unit)
 
         buy_message = "{} limit order at {} of size {} on {}.".format(self.asset,
                                                                       best['price'],
@@ -175,10 +175,10 @@ class BuyTheDip():
 
         if best['exchange'] == "coinbasepro":
             response = self.coinbasepro.place_order("{}-USD".format(self.asset),
-                                                 "buy",
-                                                 "limit",
-                                                 price=best['price'],
-                                                 size=size)
+                                                    "buy",
+                                                    "limit",
+                                                    price=best['price'],
+                                                    size=size)
             if "message" in response:
                 order_success = False
                 order_message = response['message']

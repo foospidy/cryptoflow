@@ -181,8 +181,8 @@ class BuyAtMarket():
 
         elif best['exchange'] == "gemini":
             # size is required to place market orders on gemini
-            satoshis = 6
-            size = round(float(spend) / float(best['price']), satoshis)
+            smallest_unit = 6
+            size = round(float(spend) / float(best['price']), smallest_unit)
             response = self.gemini.new_order("{}USD".format(self.asset),
                                              str(size),
                                              str(best['price']),

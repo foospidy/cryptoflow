@@ -13,7 +13,7 @@ except:
             "btd": {
                 "dip_price": 3.35,
                 "amount_usd": 5,
-                "satoshis": 2,
+                "smallest_unit": 2,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -25,7 +25,7 @@ except:
             "btd": {
                 "dip_price": 350,
                 "amount_usd": 5,
-                "satoshis": 5,
+                "smallest_unit": 5,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -37,7 +37,7 @@ except:
             "btd": {
                 "dip_price": 1.70,
                 "amount_usd": 5,
-                "satoshis": 8,
+                "smallest_unit": 8,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -49,7 +49,7 @@ except:
             "btd": {
                 "dip_price": 1.25,
                 "amount_usd": 5,
-                "satoshis": 0,
+                "smallest_unit": 0,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -61,7 +61,7 @@ except:
             "btd": {
                 "dip_price": 0.05,
                 "amount_usd": 5,
-                "satoshis": 6,
+                "smallest_unit": 6,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -73,7 +73,7 @@ except:
             "btd": {
                 "dip_price": 0.12,
                 "amount_usd": 5,
-                "satoshis": 0,
+                "smallest_unit": 0,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -85,7 +85,7 @@ except:
             "btd": {
                 "dip_price": 14,
                 "amount_usd": 5,
-                "satoshis": 8,
+                "smallest_unit": 8,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -97,7 +97,7 @@ except:
             "btd": {
                 "dip_price": 9,
                 "amount_usd": 5,
-                "satoshis": 2,
+                "smallest_unit": 2,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -109,7 +109,7 @@ except:
             "btd": {
                 "dip_price": 35,
                 "amount_usd": 5,
-                "satoshis": 1,
+                "smallest_unit": 1,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -121,7 +121,7 @@ except:
             "btd": {
                 "dip_price": 0.45,
                 "amount_usd": 5,
-                "satoshis": 2,
+                "smallest_unit": 2,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -133,7 +133,7 @@ except:
             "btd": {
                 "dip_price": 700,
                 "amount_usd": 5,
-                "satoshis": 8,
+                "smallest_unit": 8,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -145,7 +145,7 @@ except:
             "btd": {
                 "dip_price": 5,
                 "amount_usd": 5,
-                "satoshis": 8,
+                "smallest_unit": 8,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -157,7 +157,7 @@ except:
             "btd": {
                 "dip_price": 41000,
                 "amount_usd": 5,
-                "satoshis": 8,
+                "smallest_unit": 8,
                 "schedule": "*/30 * * * *"
             },
             "dca": {
@@ -169,7 +169,7 @@ except:
             "btd": {
                 "dip_price": 4.10,
                 "amount_usd": 5,
-                "satoshis": 2,
+                "smallest_unit": 2,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -181,7 +181,7 @@ except:
             "btd": {
                 "dip_price": 490,
                 "amount_usd": 5,
-                "satoshis": 8,
+                "smallest_unit": 8,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -193,7 +193,7 @@ except:
             "btd": {
                 "dip_price": 2,
                 "amount_usd": 5,
-                "satoshis": 2,
+                "smallest_unit": 2,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -205,7 +205,7 @@ except:
             "btd": {
                 "dip_price": 90,
                 "amount_usd": 5,
-                "satoshis": 1,
+                "smallest_unit": 1,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -217,7 +217,7 @@ except:
             "btd": {
                 "dip_price": 0.32,
                 "amount_usd": 5,
-                "satoshis": 8,
+                "smallest_unit": 8,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -229,7 +229,7 @@ except:
             "btd": {
                 "dip_price": 0.999900,
                 "amount_usd": 5,
-                "satoshis": 5,
+                "smallest_unit": 5,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -241,7 +241,7 @@ except:
             "btd": {
                 "dip_price": 150,
                 "amount_usd": 5,
-                "satoshis": 3,
+                "smallest_unit": 3,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -253,7 +253,7 @@ except:
             "btd": {
                 "dip_price": 0.20,
                 "amount_usd": 5,
-                "satoshis": 8,
+                "smallest_unit": 8,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -265,7 +265,7 @@ except:
             "btd": {
                 "dip_price": 0.35,
                 "amount_usd": 5,
-                "satoshis": 6,
+                "smallest_unit": 6,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -277,7 +277,7 @@ except:
             "btd": {
                 "dip_price": 1.25,
                 "amount_usd": 5,
-                "satoshis": 2,
+                "smallest_unit": 2,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -289,7 +289,7 @@ except:
             "btd": {
                 "dip_price": 5,
                 "amount_usd": 5,
-                "satoshis": 1,
+                "smallest_unit": 1,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -301,7 +301,7 @@ except:
             "btd": {
                 "dip_price": 3000,
                 "amount_usd": 10,
-                "satoshis": 8,
+                "smallest_unit": 8,
                 "schedule": "*/30 * * * *"
             },
             "dca": {
@@ -313,7 +313,7 @@ except:
             "btd": {
                 "dip_price": 19.20,
                 "amount_usd": 5,
-                "satoshis": 3,
+                "smallest_unit": 3,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -325,7 +325,7 @@ except:
             "btd": {
                 "dip_price": 70,
                 "amount_usd": 5,
-                "satoshis": 3,
+                "smallest_unit": 3,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -337,7 +337,7 @@ except:
             "btd": {
                 "dip_price": 0.82,
                 "amount_usd": 5,
-                "satoshis": 1,
+                "smallest_unit": 1,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -349,7 +349,7 @@ except:
             "btd": {
                 "dip_price": 125,
                 "amount_usd": 5,
-                "satoshis": 4,
+                "smallest_unit": 4,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -361,7 +361,7 @@ except:
             "btd": {
                 "dip_price": 2,
                 "amount_usd": 5,
-                "satoshis": 1,
+                "smallest_unit": 1,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -373,7 +373,7 @@ except:
             "btd": {
                 "dip_price": 29,
                 "amount_usd": 5,
-                "satoshis": 8,
+                "smallest_unit": 8,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -385,7 +385,7 @@ except:
             "btd": {
                 "dip_price": 0.40,
                 "amount_usd": 5,
-                "satoshis": 6,
+                "smallest_unit": 6,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -397,7 +397,7 @@ except:
             "btd": {
                 "dip_price": 0.85,
                 "amount_usd": 5,
-                "satoshis": 2,
+                "smallest_unit": 2,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -409,7 +409,7 @@ except:
             "btd": {
                 "dip_price": 1.65,
                 "amount_usd": 5,
-                "satoshis": 6,
+                "smallest_unit": 6,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -421,7 +421,7 @@ except:
             "btd": {
                 "dip_price": 6,
                 "amount_usd": 5,
-                "satoshis": 2,
+                "smallest_unit": 2,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -433,7 +433,7 @@ except:
             "btd": {
                 "dip_price": 3500,
                 "amount_usd": 5,
-                "satoshis": 8,
+                "smallest_unit": 8,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -445,7 +445,7 @@ except:
             "btd": {
                 "dip_price": 0.35,
                 "amount_usd": 5,
-                "satoshis": 1,
+                "smallest_unit": 1,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -457,7 +457,7 @@ except:
             "btd": {
                 "dip_price": 42,
                 "amount_usd": 5,
-                "satoshis": 3,
+                "smallest_unit": 3,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -469,7 +469,7 @@ except:
             "btd": {
                 "dip_price": 0.30,
                 "amount_usd": 5,
-                "satoshis": 6,
+                "smallest_unit": 6,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -481,7 +481,7 @@ except:
             "btd": {
                 "dip_price": 70,
                 "amount_usd": 5,
-                "satoshis": 2,
+                "smallest_unit": 2,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -493,7 +493,7 @@ except:
             "btd": {
                 "dip_price": 5.60,
                 "amount_usd": 5,
-                "satoshis": 8,
+                "smallest_unit": 8,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -505,7 +505,7 @@ except:
             "btd": {
                 "dip_price": 0.30,
                 "amount_usd": 5,
-                "satoshis": 0,
+                "smallest_unit": 0,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -517,7 +517,7 @@ except:
             "btd": {
                 "dip_price": 1800,
                 "amount_usd": 5,
-                "satoshis": 8,
+                "smallest_unit": 8,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -529,7 +529,7 @@ except:
             "btd": {
                 "dip_price": 0.50,
                 "amount_usd": 5,
-                "satoshis": 6,
+                "smallest_unit": 6,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -541,7 +541,7 @@ except:
             "btd": {
                 "dip_price": 25.50,
                 "amount_usd": 5,
-                "satoshis": 6,
+                "smallest_unit": 6,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -553,7 +553,7 @@ except:
             "btd": {
                 "dip_price": 4.80,
                 "amount_usd": 5,
-                "satoshis": 2,
+                "smallest_unit": 2,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -565,7 +565,7 @@ except:
             "btd": {
                 "dip_price": 0.28,
                 "amount_usd": 5,
-                "satoshis": 6,
+                "smallest_unit": 6,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -577,7 +577,7 @@ except:
             "btd": {
                 "dip_price": 0.35,
                 "amount_usd": 5,
-                "satoshis": 1,
+                "smallest_unit": 1,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -589,7 +589,7 @@ except:
             "btd": {
                 "dip_price": 14.90,
                 "amount_usd": 5,
-                "satoshis": 3,
+                "smallest_unit": 3,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -601,7 +601,7 @@ except:
             "btd": {
                 "dip_price": 1.00,
                 "amount_usd": 5,
-                "satoshis": 2,
+                "smallest_unit": 2,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -613,7 +613,7 @@ except:
             "btd": {
                 "dip_price": 13.70,
                 "amount_usd": 5,
-                "satoshis": 8,
+                "smallest_unit": 8,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -625,7 +625,7 @@ except:
             "btd": {
                 "dip_price": 60,
                 "amount_usd": 5,
-                "satoshis": 3,
+                "smallest_unit": 3,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -637,7 +637,7 @@ except:
             "btd": {
                 "dip_price": 17,
                 "amount_usd": 5,
-                "satoshis": 8,
+                "smallest_unit": 8,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -649,7 +649,7 @@ except:
             "btd": {
                 "dip_price": 24,
                 "amount_usd": 5,
-                "satoshis": 8,
+                "smallest_unit": 8,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -661,7 +661,7 @@ except:
             "btd": {
                 "dip_price": 45000,
                 "amount_usd": 5,
-                "satoshis": 8,
+                "smallest_unit": 8,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -673,7 +673,7 @@ except:
             "btd": {
                 "dip_price": 3.75,
                 "amount_usd": 5,
-                "satoshis": 8,
+                "smallest_unit": 8,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -685,7 +685,7 @@ except:
             "btd": {
                 "dip_price": 46900,
                 "amount_usd": 5,
-                "satoshis": 8,
+                "smallest_unit": 8,
                 "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -697,7 +697,7 @@ except:
             "btd": {
             "dip_price": 175,
             "amount_usd": 5,
-            "satoshis": 8,
+            "smallest_unit": 8,
             "schedule": "*/60 * * * *"
             },
             "dca": {
@@ -709,7 +709,7 @@ except:
             "btd": {
                 "dip_price": 1,
                 "amount_usd": 5,
-                "satoshis": 5,
+                "smallest_unit": 5,
                 "schedule": "*/60 * * * *"
             },
             "dca": {

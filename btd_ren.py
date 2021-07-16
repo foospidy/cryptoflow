@@ -31,7 +31,7 @@ from cryptoflow.config import get_btd_config
 ASSET = os.path.basename(__file__).replace("btd_", "").replace(".py", "").upper()
 DIP_PRICE = get_btd_config(ASSET, 'dip_price')
 AMOUNT_USD = get_btd_config(ASSET, 'amount_usd')
-SATOSHIS = get_btd_config(ASSET, 'satoshis')
+SMALLEST_UNIT = get_btd_config(ASSET, 'smallest_unit')
 SCHEDULE = get_btd_config(ASSET, 'schedule')
 START_DATE = airflow.utils.dates.days_ago(1)
 
@@ -98,7 +98,7 @@ def do_buy_the_dip(**kwargs):
         spend = float(kwargs['amount_usd'])
 
     buydip = BuyTheDip(ASSET)
-    response = buydip.buy_dip(best_price, spend, SATOSHIS)
+    response = buydip.buy_dip(best_price, spend, SMALLEST_UNIT)
 
     if not response['success']:
         print(response['message'])
