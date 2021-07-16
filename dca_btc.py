@@ -5,7 +5,8 @@ import os
 import sys
 from datetime import timedelta
 
-from airflow import DAG
+import airflow
+from airflow.models import DAG
 from airflow.operators.python import PythonOperator
 from airflow.utils.dates import days_ago
 
@@ -17,15 +18,15 @@ ASSET = os.path.basename(__file__).replace("dca_", "").replace(".py", "").upper(
 AMOUNT_USD = get_dca_config(ASSET, 'amount_usd')
 SCHEDULE = get_dca_config(ASSET, 'schedule')
 
-args = {
-    'owner': 'airflow',
+default_args = {
+    'owner': 'cryptoflow',
 }
 
 dag = DAG(
     dag_id='dca_{}'.format(ASSET.lower()),
-    default_args=args,
-    schedule_interval="*/60 * * * *",
-    start_date=days_ago(0),
+    default_args=default_args,
+    schedule_interval=SCHEDULE,
+    start_date=START_DATE,
     catchup=False,
     dagrun_timeout=timedelta(minutes=1),
     tags=['crypto', 'dollar_cost_average'],

@@ -17,7 +17,8 @@ import os
 import sys
 from datetime import timedelta
 
-from airflow import DAG
+import airflow
+from airflow.models import DAG
 from airflow.operators.python import PythonOperator
 from airflow.operators.python import BranchPythonOperator
 from airflow.operators.dummy import DummyOperator
@@ -32,16 +33,17 @@ DIP_PRICE = get_btd_config(ASSET, 'dip_price')
 AMOUNT_USD = get_btd_config(ASSET, 'amount_usd')
 SATOSHIS = get_btd_config(ASSET, 'satoshis')
 SCHEDULE = get_btd_config(ASSET, 'schedule')
+START_DATE = airflow.utils.dates.days_ago(1)
 
-args = {
-    'owner': 'airflow',
+default_args = {
+    'owner': 'cryptoflow',
 }
 
 dag = DAG(
     dag_id='btd_{}'.format(ASSET.lower()),
-    default_args=args,
-    schedule_interval="*/60 * * * *",
-    start_date=days_ago(0),
+    default_args=default_args,
+    schedule_interval=SCHEDULE,
+    start_date=START_DATE,
     catchup=False,
     dagrun_timeout=timedelta(minutes=1),
     tags=['crypto', 'buy_the_dip'],

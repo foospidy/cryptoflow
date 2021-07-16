@@ -6,22 +6,23 @@ message will be posted for completed orders if Slack is configured.
 
 from datetime import timedelta
 
-from airflow import DAG
+import airflow
+from airflow.models import DAG
 from airflow.operators.python import PythonOperator
 from airflow.utils.dates import days_ago
 
 from cryptoflow.buythedip import CheckOrders
 
 
-args = {
-    'owner': 'airflow',
+default_args = {
+    'owner': 'cryptoflow',
 }
 
 dag = DAG(
     dag_id='btd_check_orders',
-    default_args=args,
+    default_args=default_args,
     schedule_interval="*/5 * * * *",
-    start_date=days_ago(0),
+    start_date=START_DATE,
     dagrun_timeout=timedelta(minutes=1),
     tags=['crypto', 'orders'],
     params={}
