@@ -46,7 +46,7 @@ dag = DAG(
     dagrun_timeout=timedelta(minutes=1),
     tags=['crypto', 'buy_the_dip'],
     params={
-        "dip_price": "",
+        "dip_price": "0",
         "amount_usd": "5"
     }
 )
