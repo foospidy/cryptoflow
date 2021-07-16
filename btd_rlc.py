@@ -101,8 +101,15 @@ def do_buy_the_dip(**kwargs):
     response = buydip.buy_dip(best_price, spend, SMALLEST_UNIT)
 
     if not response['success']:
-        print(response['message'])
-        sys.exit(1)
+        if response['message'] == "Insufficient funds":
+            # Insufficient funds on coinbasepro, so let's
+            # try to get the same price on gemini.
+            best_price['exchange'] = "gemini"
+            response = buydip.buy_dip(best_price, spend, SMALLEST_UNIT)
+        
+        if not response['success']:
+            print(response['message'])
+            sys.exit(1)
 
     return response['message']
 

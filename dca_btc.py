@@ -50,8 +50,15 @@ def do_dollar_cost_average():
     if response['success']:
         return_message = response['message']
     else:
-        print(response['message'])
-        sys.exit(1)
+        if response['message'] == "Insufficient funds":
+            # Insufficient funds on coinbasepro, so let's
+            # try to get the same price on gemini.
+            best_price['exchange'] = "gemini"
+            response = buydip.buy_dip(best_price, spend, SMALLEST_UNIT)
+        
+        if not response['success']:
+            print(response['message'])
+            sys.exit(1)
 
     return "Order placed: {}".format(return_message)
 
