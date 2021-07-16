@@ -17,6 +17,7 @@ from cryptoflow.config import get_dca_config
 ASSET = os.path.basename(__file__).replace("dca_", "").replace(".py", "").upper()
 AMOUNT_USD = get_dca_config(ASSET, 'amount_usd')
 SCHEDULE = get_dca_config(ASSET, 'schedule')
+START_DATE = airflow.utils.dates.days_ago(1)
 
 default_args = {
     'owner': 'cryptoflow',
