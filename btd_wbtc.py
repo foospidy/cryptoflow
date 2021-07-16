@@ -80,7 +80,7 @@ def do_is_dip(**kwargs):
 is_dip = BranchPythonOperator(
     task_id='is_dip',
     python_callable=do_is_dip,
-    op_kwargs={ "dip_price": "" },
+    op_kwargs={ "dip_price": DIP_PRICE },
     dag=dag,
 )
 # [END is_dip]
