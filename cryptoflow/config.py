@@ -11,34 +11,34 @@ except:
     CF_CONFIG = {
         "1INCH": {
             "btd": {
-                "dip_price": 3.35,
                 "amount_usd": 5,
-                "smallest_unit": 2,
-                "schedule": "*/60 * * * *"
+                "dip_price": 2.4,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "AAVE": {
             "btd": {
-                "dip_price": 350,
                 "amount_usd": 5,
-                "smallest_unit": 5,
-                "schedule": "*/60 * * * *"
+                "dip_price": 300,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 5
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "ADA": {
             "btd": {
-                "dip_price": 1.70,
                 "amount_usd": 5,
-                "smallest_unit": 8,
-                "schedule": "*/60 * * * *"
+                "dip_price": 1.3,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
@@ -47,118 +47,130 @@ except:
         },
         "ALGO": {
             "btd": {
-                "dip_price": 1.25,
                 "amount_usd": 5,
-                "smallest_unit": 0,
-                "schedule": "*/60 * * * *"
+                "dip_price": 0.9,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 0
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "AMP": {
             "btd": {
-                "dip_price": 0.05,
                 "amount_usd": 5,
-                "smallest_unit": 6,
-                "schedule": "*/60 * * * *"
+                "dip_price": 0.05,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 6
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "ANKR": {
             "btd": {
-                "dip_price": 0.12,
                 "amount_usd": 5,
-                "smallest_unit": 0,
-                "schedule": "*/60 * * * *"
+                "dip_price": 0.07,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 0
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "ATOM": {
             "btd": {
+                "amount_usd": 5,
                 "dip_price": 14,
-                "amount_usd": 5,
-                "smallest_unit": 8,
-                "schedule": "*/60 * * * *"
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
-            }
-        },
-        "BAND": {
-            "btd": {
-                "dip_price": 9,
-                "amount_usd": 5,
-                "smallest_unit": 2,
-                "schedule": "*/60 * * * *"
-            },
-            "dca": {
-                "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "BAL": {
             "btd": {
-                "dip_price": 35,
                 "amount_usd": 5,
-                "smallest_unit": 1,
-                "schedule": "*/60 * * * *"
+                "dip_price": 35,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 1
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
+            }
+        },
+        "BAND": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 9,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 2
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
             }
         },
         "BAT": {
             "btd": {
-                "dip_price": 0.45,
                 "amount_usd": 5,
-                "smallest_unit": 2,
-                "schedule": "*/60 * * * *"
+                "dip_price": 0.45,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "BCH": {
             "btd": {
-                "dip_price": 700,
                 "amount_usd": 5,
-                "smallest_unit": 8,
-                "schedule": "*/60 * * * *"
+                "dip_price": 475,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "BNT": {
             "btd": {
-                "dip_price": 5,
                 "amount_usd": 5,
-                "smallest_unit": 8,
-                "schedule": "*/60 * * * *"
+                "dip_price": 3,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 6
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
+            }
+        },
+        "BOND": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 27,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 3
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
             }
         },
         "BTC": {
             "btd": {
-                "dip_price": 41000,
                 "amount_usd": 5,
-                "smallest_unit": 8,
-                "schedule": "*/30 * * * *"
+                "dip_price": 33000,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
             },
             "dca": {
                 "amount_usd": 10,
@@ -167,554 +179,590 @@ except:
         },
         "CGLD": {
             "btd": {
-                "dip_price": 4.10,
                 "amount_usd": 5,
-                "smallest_unit": 2,
-                "schedule": "*/60 * * * *"
+                "dip_price": 4.1,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "COMP": {
             "btd": {
-                "dip_price": 490,
                 "amount_usd": 5,
-                "smallest_unit": 8,
-                "schedule": "*/60 * * * *"
+                "dip_price": 490,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 3
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "CRV": {
             "btd": {
-                "dip_price": 2,
                 "amount_usd": 5,
-                "smallest_unit": 2,
-                "schedule": "*/60 * * * *"
+                "dip_price": 2,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "CTSI": {
             "btd": {
-                "dip_price": 90,
                 "amount_usd": 5,
-                "smallest_unit": 1,
-                "schedule": "*/60 * * * *"
+                "dip_price": 90,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 1
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "CVC": {
             "btd": {
-                "dip_price": 0.32,
                 "amount_usd": 5,
-                "smallest_unit": 8,
-                "schedule": "*/60 * * * *"
+                "dip_price": 0.32,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "DAI": {
             "btd": {
-                "dip_price": 0.999900,
                 "amount_usd": 5,
-                "smallest_unit": 5,
-                "schedule": "*/60 * * * *"
+                "dip_price": 0.9999,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 5
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "DASH": {
             "btd": {
-                "dip_price": 150,
                 "amount_usd": 5,
-                "smallest_unit": 3,
-                "schedule": "*/60 * * * *"
+                "dip_price": 150,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 3
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "DNT": {
             "btd": {
-                "dip_price": 0.20,
                 "amount_usd": 5,
-                "smallest_unit": 8,
-                "schedule": "*/60 * * * *"
+                "dip_price": 0.2,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "DOGE": {
             "btd": {
-                "dip_price": 0.35,
                 "amount_usd": 5,
-                "smallest_unit": 6,
-                "schedule": "*/60 * * * *"
+                "dip_price": 0.35,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 6
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
+            }
+        },
+        "DOT": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 15,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 3
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
             }
         },
         "ENJ": {
             "btd": {
-                "dip_price": 1.25,
                 "amount_usd": 5,
-                "smallest_unit": 2,
-                "schedule": "*/60 * * * *"
+                "dip_price": 1.25,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "EOS": {
             "btd": {
-                "dip_price": 5,
                 "amount_usd": 5,
-                "smallest_unit": 1,
-                "schedule": "*/60 * * * *"
+                "dip_price": 3.75,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 1
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "ETH": {
             "btd": {
-                "dip_price": 3000,
                 "amount_usd": 10,
-                "smallest_unit": 8,
-                "schedule": "*/30 * * * *"
+                "dip_price": 2000,
+                "schedule": "*/10 * * * *",
+                "smallest_unit": 8
             },
             "dca": {
                 "amount_usd": 100,
                 "schedule": "0 5 * * 1"
             }
         },
-        "FORTH": {
-            "btd": {
-                "dip_price": 19.20,
-                "amount_usd": 5,
-                "smallest_unit": 3,
-                "schedule": "*/60 * * * *"
-            },
-            "dca": {
-                "amount_usd": 10,
-                "schedule": None
-            }
-        },
         "FIL": {
             "btd": {
-                "dip_price": 70,
                 "amount_usd": 5,
-                "smallest_unit": 3,
-                "schedule": "*/60 * * * *"
+                "dip_price": 70,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 3
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
+            }
+        },
+        "FORTH": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 19.2,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 3
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
             }
         },
         "GRT": {
             "btd": {
-                "dip_price": 0.82,
                 "amount_usd": 5,
-                "smallest_unit": 1,
-                "schedule": "*/60 * * * *"
+                "dip_price": 0.82,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 1
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "ICP": {
             "btd": {
-                "dip_price": 125,
                 "amount_usd": 5,
-                "smallest_unit": 4,
-                "schedule": "*/60 * * * *"
+                "dip_price": 125,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 4
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "KNC": {
             "btd": {
-                "dip_price": 2,
                 "amount_usd": 5,
-                "smallest_unit": 1,
-                "schedule": "*/60 * * * *"
+                "dip_price": 2,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 1
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "LINK": {
             "btd": {
-                "dip_price": 29,
                 "amount_usd": 5,
-                "smallest_unit": 8,
-                "schedule": "*/60 * * * *"
+                "dip_price": 17.5,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "LRC": {
             "btd": {
-                "dip_price": 0.40,
                 "amount_usd": 5,
-                "smallest_unit": 6,
-                "schedule": "*/60 * * * *"
+                "dip_price": 0.4,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 6
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "MANA": {
             "btd": {
-                "dip_price": 0.85,
                 "amount_usd": 5,
-                "smallest_unit": 2,
-                "schedule": "*/60 * * * *"
+                "dip_price": 0.85,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "MATIC": {
             "btd": {
-                "dip_price": 1.65,
-                "amount_usd": 5,
-                "smallest_unit": 6,
-                "schedule": "*/60 * * * *"
+                "amount_usd": 15,
+                "dip_price": 1,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 5
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "MIR": {
             "btd": {
-                "dip_price": 6,
                 "amount_usd": 5,
-                "smallest_unit": 2,
-                "schedule": "*/60 * * * *"
+                "dip_price": 3.45,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "MKR": {
             "btd": {
-                "dip_price": 3500,
                 "amount_usd": 5,
-                "smallest_unit": 8,
-                "schedule": "*/60 * * * *"
+                "dip_price": 3500,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 6
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "NKN": {
             "btd": {
-                "dip_price": 0.35,
                 "amount_usd": 5,
-                "smallest_unit": 1,
-                "schedule": "*/60 * * * *"
+                "dip_price": 0.35,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 1
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "NMR": {
             "btd": {
-                "dip_price": 42,
                 "amount_usd": 5,
-                "smallest_unit": 3,
-                "schedule": "*/60 * * * *"
+                "dip_price": 42,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 3
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "NU": {
             "btd": {
-                "dip_price": 0.30,
                 "amount_usd": 5,
-                "smallest_unit": 6,
-                "schedule": "*/60 * * * *"
+                "dip_price": 0.3,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 6
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "OGN": {
             "btd": {
-                "dip_price": 70,
                 "amount_usd": 5,
-                "smallest_unit": 2,
-                "schedule": "*/60 * * * *"
+                "dip_price": 70,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "OMG": {
             "btd": {
-                "dip_price": 5.60,
                 "amount_usd": 5,
-                "smallest_unit": 8,
-                "schedule": "*/60 * * * *"
+                "dip_price": 5.6,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "OXT": {
             "btd": {
-                "dip_price": 0.30,
                 "amount_usd": 5,
-                "smallest_unit": 0,
-                "schedule": "*/60 * * * *"
+                "dip_price": 0.3,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 0
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "PAXG": {
             "btd": {
-                "dip_price": 1800,
                 "amount_usd": 5,
-                "smallest_unit": 8,
-                "schedule": "*/60 * * * *"
+                "dip_price": 1800,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "REN": {
             "btd": {
-                "dip_price": 0.50,
                 "amount_usd": 5,
-                "smallest_unit": 6,
-                "schedule": "*/60 * * * *"
+                "dip_price": 0.5,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 6
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "REP": {
             "btd": {
-                "dip_price": 25.50,
                 "amount_usd": 5,
-                "smallest_unit": 6,
-                "schedule": "*/60 * * * *"
+                "dip_price": 25.5,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 6
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "RLC": {
             "btd": {
-                "dip_price": 4.80,
                 "amount_usd": 5,
-                "smallest_unit": 2,
-                "schedule": "*/60 * * * *"
+                "dip_price": 4.8,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "SAND": {
             "btd": {
-                "dip_price": 0.28,
                 "amount_usd": 5,
-                "smallest_unit": 6,
-                "schedule": "*/60 * * * *"
+                "dip_price": 0.28,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 6
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "SKL": {
             "btd": {
-                "dip_price": 0.35,
                 "amount_usd": 5,
-                "smallest_unit": 1,
-                "schedule": "*/60 * * * *"
+                "dip_price": 0.35,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 1
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "SNX": {
             "btd": {
-                "dip_price": 14.90,
                 "amount_usd": 5,
-                "smallest_unit": 3,
-                "schedule": "*/60 * * * *"
+                "dip_price": 14.9,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 3
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
+            }
+        },
+        "SOL": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 30,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 3
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
             }
         },
         "STORJ": {
             "btd": {
-                "dip_price": 1.00,
                 "amount_usd": 5,
-                "smallest_unit": 2,
-                "schedule": "*/60 * * * *"
+                "dip_price": 1.0,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "SUSHI": {
             "btd": {
-                "dip_price": 13.70,
                 "amount_usd": 5,
-                "smallest_unit": 8,
-                "schedule": "*/60 * * * *"
+                "dip_price": 13.7,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "TRB": {
             "btd": {
-                "dip_price": 60,
                 "amount_usd": 5,
-                "smallest_unit": 3,
-                "schedule": "*/60 * * * *"
+                "dip_price": 60,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 3
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "UMA": {
             "btd": {
-                "dip_price": 17,
                 "amount_usd": 5,
-                "smallest_unit": 8,
-                "schedule": "*/60 * * * *"
+                "dip_price": 17,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 3
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "UNI": {
             "btd": {
-                "dip_price": 24,
                 "amount_usd": 5,
-                "smallest_unit": 8,
-                "schedule": "*/60 * * * *"
+                "dip_price": 24,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "WBTC": {
             "btd": {
-                "dip_price": 45000,
                 "amount_usd": 5,
-                "smallest_unit": 8,
-                "schedule": "*/60 * * * *"
+                "dip_price": 45000,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
+            }
+        },
+        "XLM": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 0.25,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 0
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
             }
         },
         "XTZ": {
             "btd": {
-                "dip_price": 3.75,
                 "amount_usd": 5,
-                "smallest_unit": 8,
-                "schedule": "*/60 * * * *"
+                "dip_price": 3.75,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "YFI": {
             "btd": {
-                "dip_price": 46900,
                 "amount_usd": 5,
-                "smallest_unit": 8,
-                "schedule": "*/60 * * * *"
+                "dip_price": 30000,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "ZEC": {
             "btd": {
-            "dip_price": 175,
-            "amount_usd": 5,
-            "smallest_unit": 8,
-            "schedule": "*/60 * * * *"
+                "amount_usd": 5,
+                "dip_price": 175,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         },
         "ZRX": {
             "btd": {
-                "dip_price": 1,
                 "amount_usd": 5,
-                "smallest_unit": 5,
-                "schedule": "*/60 * * * *"
+                "dip_price": 0.75,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 5
             },
             "dca": {
                 "amount_usd": 10,
-                "schedule": None
+                "schedule": null
             }
         }
     }
