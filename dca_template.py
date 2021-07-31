@@ -53,7 +53,7 @@ def do_dollar_cost_average():
             # Insufficient funds on coinbasepro, so let's try gemini.
             print("Insufficient funds on coinbasepro, trying gemini...")
             best_price['exchange'] = "gemini"
-            response = buydip.buy_dip(best_price, spend, SMALLEST_UNIT)
+            response = buymarket.buy_market(best_price, AMOUNT_USD)
 
         if not response['success']:
             print("{} {}".format(response['reason'], response['message']))
