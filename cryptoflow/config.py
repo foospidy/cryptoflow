@@ -698,7 +698,7 @@ except:
                 "amount_usd": 5,
                 "dip_price": 24,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 8
+                "smallest_unit": 6
             },
             "dca": {
                 "amount_usd": 10,
