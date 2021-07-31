@@ -19,7 +19,10 @@ lint:
 	.env/bin/pylint dags/cryptoflow/buythedip.py
 	.env/bin/pylint dags/cryptoflow/config.py
 	.env/bin/pylint dags/cryptoflow/slack.py
-	
+
+generate:
+	.env/bin/python generate.py
+
 dags:
 	cp -R dags/cryptoflow ~/airflow/dags/
 	cp dags/*.py ~/airflow/dags/
