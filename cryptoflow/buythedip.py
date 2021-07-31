@@ -118,8 +118,9 @@ class BuyTheDip():
         """
         Buy the dip!
         """
-        response = {}
+        order_response = {}
         order_success = True
+        order_reason = None
         order_message = None
 
         # get size based on spend limit and best price
@@ -146,13 +147,11 @@ class BuyTheDip():
                                              str(size),
                                              str(best['price']),
                                              "buy")
-            if "is_cancelled" in response and response['is_cancelled'] is True:
+            
+            if "result" in response and response['result'] == "error":
                 order_success = False
-                order_message = response
-
-            if "message" in response:
-                order_success = False
-                order_message = response
+                order_reason = response['reason']
+                order_message = response['message']
 
         if order_success:
             # Create order file
@@ -172,10 +171,11 @@ class BuyTheDip():
             # Send buy_message to slack if webhook configured
             slack_webhook(buy_message)
 
-        response['success'] = order_success
-        response['message'] = order_message
+        order_response['success'] = order_success
+        order_response['reason'] = order_reason
+        order_response['message'] = order_message
 
-        return response
+        return order_response
 
 class CheckOrders():
     """
