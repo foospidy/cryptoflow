@@ -194,6 +194,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "CLV": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 1.19,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "COMP": {
         "btd": {
             "amount_usd": 5,
@@ -338,6 +350,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "ETC": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 40,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "ETH": {
         "btd": {
             "amount_usd": 10,
@@ -350,12 +374,24 @@ DEFAULT_CF_CONFIG = {
             "schedule": "0 5 * * 1"
         }
     },
-    "FIL": {
+    "FARM": {
+        "btd": { 
+            "amount_usd": 5,
+            "dip_price": 257,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "FET": {
         "btd": {
             "amount_usd": 5,
-            "dip_price": 70,
+            "dip_price": 0.39,
             "schedule": "*/60 * * * *",
-            "smallest_unit": 3
+            "smallest_unit": 8
         },
         "dca": {
             "amount_usd": 10,
@@ -366,6 +402,18 @@ DEFAULT_CF_CONFIG = {
         "btd": {
             "amount_usd": 5,
             "dip_price": 19.2,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 3
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "FIL": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 70,
             "schedule": "*/60 * * * *",
             "smallest_unit": 3
         },
@@ -386,12 +434,36 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "GTC": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 6.90,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "ICP": {
         "btd": {
             "amount_usd": 5,
             "dip_price": 125,
             "schedule": "*/60 * * * *",
             "smallest_unit": 4
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "KEEP": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 0.28,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
         },
         "dca": {
             "amount_usd": 10,
@@ -422,6 +494,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "LPT": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 19,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "LRC": {
         "btd": {
             "amount_usd": 5,
@@ -440,6 +524,18 @@ DEFAULT_CF_CONFIG = {
             "dip_price": 0.85,
             "schedule": "*/60 * * * *",
             "smallest_unit": 2
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "MASK": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 4.75,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
         },
         "dca": {
             "amount_usd": 10,
@@ -476,6 +572,18 @@ DEFAULT_CF_CONFIG = {
             "dip_price": 3500,
             "schedule": "*/60 * * * *",
             "smallest_unit": 6
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "MLN": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 76.70,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
         },
         "dca": {
             "amount_usd": 10,
@@ -554,6 +662,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "PAX": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 1,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "PAXG": {
         "btd": {
             "amount_usd": 5,
@@ -608,6 +728,18 @@ DEFAULT_CF_CONFIG = {
             "dip_price": 4.8,
             "schedule": "*/60 * * * *",
             "smallest_unit": 2
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "RLY": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 0.45,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
         },
         "dca": {
             "amount_usd": 10,
