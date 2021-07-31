@@ -31,7 +31,6 @@ jobs:
         pylint dca_btc.py
         pylint check_orders.py
         pylint cryptoflow/__init__.py
-        pylint cryptoflow/bittrex.py
         pylint cryptoflow/buyatmarket.py
         pylint cryptoflow/buythedip.py
         pylint cryptoflow/config.py

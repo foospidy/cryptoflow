@@ -15,7 +15,6 @@ lint:
 	.env/bin/pylint dca_btc.py
 	.env/bin/pylint check_orders.py
 	.env/bin/pylint cryptoflow/__init__.py
-	.env/bin/pylint cryptoflow/bittrex.py
 	.env/bin/pylint cryptoflow/buyatmarket.py
 	.env/bin/pylint cryptoflow/buythedip.py
 	.env/bin/pylint cryptoflow/config.py

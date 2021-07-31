@@ -9,7 +9,6 @@ import gemini
 
 from airflow.models import Variable
 
-from cryptoflow import bittrex
 from cryptoflow.slack import slack_webhook
 
 
@@ -23,8 +22,6 @@ class BuyAtMarket():
     use = 'last'
     coinbasepro = None
     gemini = None
-    bittrex = None
-    uphold = None
 
     def __init__(self, asset=None, price=None, use='last'):
         self.exchanges = self._configured_exchanges()
@@ -40,12 +37,6 @@ class BuyAtMarket():
         if "gemini" in self.exchanges:
             self.gemini = gemini.PrivateClient(Variable.get('GEMINI_KEY'),
                                             Variable.get('GEMINI_SECRET'))
-        if "bittrex" in self.exchanges:
-            self.bittrex = bittrex.Bittrex3(Variable.get('BITTREX_KEY'),
-                                            Variable.get('BITTREX_SECRET'))
-        if "uphold" in self.exchanges:
-            # TODO
-            pass
 
     @staticmethod
     def _configured_exchanges():
@@ -62,20 +53,6 @@ class BuyAtMarket():
         try:
             Variable.get("GEMINI_KEY")
             exchanges.append("gemini")
-        except:
-            pass
-
-        # pylint: disable=bare-except
-        try:
-            Variable.get("BITTREX_KEY")
-            exchanges.append("bittrex")
-        except:
-            pass
-
-        # pylint: disable=bare-except
-        try:
-            Variable.get("UPHOLD_KEY")
-            exchanges.append("uphold")
         except:
             pass
 
@@ -114,25 +91,6 @@ class BuyAtMarket():
                 prices_last["gemini"] = gemr["ask"]
 
             print("GEMINI: \t{} - bid: {} ask: {}".format(gemr["last"], gemr["bid"], gemr["ask"]))
-
-        if self.bittrex is not None:
-            asset = "{}-USD".format(self.asset)
-            bitr = self.bittrex.get_ticker(asset)
-
-            if "code" in bitr:
-                bitr["lastTradeRate"] = bitr["code"]
-                bitr["bidRate"] = bitr["code"]
-                bitr["askRate"] = bitr["code"]
-            else:
-                prices_ask["bittrex"] = bitr["askRate"]
-                prices_last["bittrex"] = bitr["lastTradeRate"]
-
-            print("BITTREX: \t{} - bid: {} ask: {}".format(bitr["lastTradeRate"],
-                                                           bitr["bidRate"],
-                                                           bitr["askRate"]))
-
-        if self.uphold is not None:
-            pass
 
         min_ask = {}
         min_last = {}
@@ -196,18 +154,6 @@ class BuyAtMarket():
             if "message" in response:
                 order_success = False
                 order_message = response
-
-        elif best['exchange'] == "bittrex":
-            # TODO
-            # pylint: disable=pointless-string-statement
-            """
-            response = self.bittrex.place_limit_order("{}-USD".format(self.asset),
-                                                      best['price'],
-                                                      size)
-            if "code" in response:
-                order_success = False
-                order_message = response
-            """
 
         if order_success:
             # Create order file
