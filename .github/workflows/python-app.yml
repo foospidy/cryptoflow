@@ -27,14 +27,14 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Lint with pylint
       run: |
-        pylint btd_btc.py
-        pylint dca_btc.py
-        pylint check_orders.py
-        pylint cryptoflow/__init__.py
-        pylint cryptoflow/buyatmarket.py
-        pylint cryptoflow/buythedip.py
-        pylint cryptoflow/config.py
-        pylint cryptoflow/slack.py
+        pylint --init-hook='import sys; sys.path.append("dags/")' btd_template.py
+        pylint --init-hook='import sys; sys.path.append("dags/")' dca_template.py
+        pylint dags/check_orders.py
+        pylint dags/cryptoflow/__init__.py
+        pylint dags/cryptoflow/buyatmarket.py
+        pylint dags/cryptoflow/buythedip.py
+        pylint dags/cryptoflow/config.py
+        pylint dags/cryptoflow/slack.py
     #- name: Lint with flake8
     #  run: |
     #    # stop the build if there are Python syntax errors or undefined names
