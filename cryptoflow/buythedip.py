@@ -147,7 +147,7 @@ class BuyTheDip():
                                              str(size),
                                              str(best['price']),
                                              "buy")
-            
+
             if "result" in response and response['result'] == "error":
                 order_success = False
                 order_reason = response['reason']
