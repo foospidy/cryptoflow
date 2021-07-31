@@ -14,7 +14,7 @@ from airflow.utils.dates import days_ago
 from cryptoflow.buythedip import CheckOrders
 
 
-START_DATE = airflow.utils.dates.days_ago(1)
+START_DATE = days_ago(1)
 
 default_args = {
     'owner': 'cryptoflow',

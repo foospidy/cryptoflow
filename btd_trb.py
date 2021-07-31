@@ -33,7 +33,7 @@ DIP_PRICE = get_btd_config(ASSET, 'dip_price')
 AMOUNT_USD = get_btd_config(ASSET, 'amount_usd')
 SMALLEST_UNIT = get_btd_config(ASSET, 'smallest_unit')
 SCHEDULE = get_btd_config(ASSET, 'schedule')
-START_DATE = airflow.utils.dates.days_ago(1)
+START_DATE = days_ago(1)
 
 default_args = {
     'owner': 'cryptoflow',
