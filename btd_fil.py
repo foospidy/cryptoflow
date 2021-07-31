@@ -47,7 +47,7 @@ dag = DAG(
     dagrun_timeout=timedelta(minutes=1),
     tags=['crypto', 'buy_the_dip'],
     params={
-        "dip_price": "0",
+        "dip_price": "0.0",
         "amount_usd": "5"
     }
 )
@@ -116,7 +116,7 @@ def do_buy_the_dip(**kwargs):
 buy_the_dip = PythonOperator(
     task_id='buy_the_dip',
     python_callable=do_buy_the_dip,
-    op_kwargs={ "dip_price": "0", "amount_usd": "5" },
+    op_kwargs={ "dip_price": "0.0", "amount_usd": "5" },
     dag=dag,
 )
 # [END buy_the_dip]
