@@ -33,4 +33,7 @@ def get_dca_config(asset=None, param="amount_usd"):
     return None
 
 def get_cf_config():
+    """
+    Return cryptoflow config
+    """
     return CF_CONFIG
