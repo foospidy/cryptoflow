@@ -50,6 +50,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "ALCX": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 300,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "AMP": {
         "btd": {
             "amount_usd": 5,
@@ -398,6 +410,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "FIL": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 70,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 3
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "FORTH": {
         "btd": {
             "amount_usd": 5,
@@ -410,12 +434,12 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
-    "FIL": {
+    "FTM": {
         "btd": {
             "amount_usd": 5,
-            "dip_price": 70,
+            "dip_price": 0.23,
             "schedule": "*/60 * * * *",
-            "smallest_unit": 3
+            "smallest_unit": 8
         },
         "dca": {
             "amount_usd": 10,
