@@ -17,7 +17,6 @@ import os
 import sys
 from datetime import timedelta
 
-import airflow
 from airflow.models import DAG
 from airflow.operators.python import PythonOperator
 from airflow.operators.python import BranchPythonOperator
