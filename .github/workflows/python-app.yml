@@ -31,7 +31,7 @@ jobs:
         pylint --init-hook='import sys; sys.path.append("dags/")' dca_template.py
         pylint dags/check_orders.py
         pylint dags/cryptoflow/__init__.py
-        pylint dags/cryptoflow/buyatmarket.py
+        pylint --disable="import-error" dags/cryptoflow/buyatmarket.py
         pylint --disable="import-error" dags/cryptoflow/buythedip.py
         pylint dags/cryptoflow/config.py
         pylint dags/cryptoflow/slack.py
