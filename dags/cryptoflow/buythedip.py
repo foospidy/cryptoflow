@@ -8,6 +8,7 @@ import gemini
 
 from airflow.models import Variable
 
+from cryptoflow.config import configured_exchanges
 from cryptoflow.slack import slack_webhook
 
 
@@ -23,7 +24,7 @@ class BuyTheDip():
     gemini = None
 
     def __init__(self, asset=None, price=None, use='last'):
-        self.exchanges = self._configured_exchanges()
+        self.exchanges = configured_exchanges()
         self.asset = asset.upper()
         self.price = price
         self.use = use
@@ -36,26 +37,6 @@ class BuyTheDip():
         if "gemini" in self.exchanges:
             self.gemini = gemini.PrivateClient(Variable.get('GEMINI_KEY'),
                                             Variable.get('GEMINI_SECRET'))
-
-    @staticmethod
-    def _configured_exchanges():
-        exchanges = []
-
-        # pylint: disable=bare-except
-        try:
-            Variable.get("COINBASEPRO_KEY")
-            exchanges.append("coinbasepro")
-        except:
-            pass
-
-        # pylint: disable=bare-except
-        try:
-            Variable.get("GEMINI_KEY")
-            exchanges.append("gemini")
-        except:
-            pass
-
-        return exchanges
 
     def get_best_price(self):
         """ Get the best price available """

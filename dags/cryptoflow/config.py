@@ -37,3 +37,25 @@ def get_cf_config():
     Return cryptoflow config
     """
     return CF_CONFIG
+
+def configured_exchanges():
+    """
+    Return list of configured exchanges.
+    """
+    exchanges = []
+
+    # pylint: disable=bare-except
+    try:
+        Variable.get("COINBASEPRO_KEY")
+        exchanges.append("coinbasepro")
+    except:
+        pass
+
+    # pylint: disable=bare-except
+    try:
+        Variable.get("GEMINI_KEY")
+        exchanges.append("gemini")
+    except:
+        pass
+
+    return exchanges
