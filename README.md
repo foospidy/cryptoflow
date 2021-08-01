@@ -41,9 +41,26 @@ If you added the CRYPTOFLOW_CONFIG variable you can adjust buy options there. Al
 
 ## Adding New Coins
 
-There are two types of DAGs:
+1. Fork this repo.
+2. Create an entry to the DEFAULT_CF_CONFIG dictionary for each new coin you want to add.
+3. Run `make generate`.
+4. Submit a pull request.
 
-- Buy The Dip: btd_\<ticker\>.py
-- Dollar Cost Average: dca_\<ticker\>.py
+DEFAULT_CF_CONFIG dictionary: https://github.com/foospidy/cryptoflow/blob/main/dags/cryptoflow/default_config.py#L4
 
-To add a new coin DAG, copy an existing DAG (btd or dca) and rename it with the coin ticker.
+Example entry:
+
+```
+"BTC": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 33000,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": "0 5 * * 1"
+        }
+    },
+```
