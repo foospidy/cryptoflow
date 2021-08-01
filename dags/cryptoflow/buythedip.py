@@ -85,9 +85,10 @@ class BuyTheDip():
                 gemr["bid"] = gemr["reason"]
                 gemr["ask"] = gemr["message"]
             else:
-                prices_ask["gemini"] = gemr["ask"]
-                # Gemini needs the ask, instead of last, otherwise order won't fill
-                prices_last["gemini"] = gemr["ask"]
+                if gemr["ask"] is not None: # can be None in rare cases
+                    prices_ask["gemini"] = gemr["ask"]
+                    # Gemini needs the ask, instead of last, otherwise order won't fill
+                    prices_last["gemini"] = gemr["ask"]
 
             print("GEMINI: \t{} - bid: {} ask: {}".format(gemr["last"], gemr["bid"], gemr["ask"]))
 
