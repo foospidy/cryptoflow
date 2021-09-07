@@ -470,6 +470,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "IOTX": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 0.07,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 4
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "KEEP": {
         "btd": {
             "amount_usd": 5,
