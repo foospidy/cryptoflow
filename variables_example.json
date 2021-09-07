@@ -27,6 +27,18 @@
                 "schedule": null
             }
         },
+        "ACH": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 0.09,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 6
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": "0 5 * * 1"
+            }
+        },
         "ADA": {
             "btd": {
                 "amount_usd": 5,
@@ -56,7 +68,7 @@
                 "amount_usd": 5,
                 "dip_price": 300,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 8
+                "smallest_unit": 6
             },
             "dca": {
                 "amount_usd": 10,
@@ -91,6 +103,18 @@
             "btd": {
                 "amount_usd": 5,
                 "dip_price": 14,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
+        "AXS": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 70,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 8
             },
@@ -212,7 +236,7 @@
                 "amount_usd": 5,
                 "dip_price": 1.19,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 8
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
@@ -259,18 +283,6 @@
             "btd": {
                 "amount_usd": 5,
                 "dip_price": 5,
-                "schedule": "*/60 * * * *",
-                "smallest_unit": 8
-            },
-            "dca": {
-                "amount_usd": 10,
-                "schedule": null
-            }
-        },
-        "CVC": {
-            "btd": {
-                "amount_usd": 5,
-                "dip_price": 0.32,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 8
             },
@@ -368,7 +380,7 @@
                 "amount_usd": 5,
                 "dip_price": 40,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 8
+                "smallest_unit": 1
             },
             "dca": {
                 "amount_usd": 10,
@@ -392,7 +404,7 @@
                 "amount_usd": 5,
                 "dip_price": 257,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 8
+                "smallest_unit": 3
             },
             "dca": {
                 "amount_usd": 10,
@@ -483,12 +495,24 @@
                 "schedule": null
             }
         },
+        "IOTX": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 0.07,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 4
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
         "KEEP": {
             "btd": {
                 "amount_usd": 5,
                 "dip_price": 0.28,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 8
+                "smallest_unit": 1
             },
             "dca": {
                 "amount_usd": 10,
@@ -608,7 +632,7 @@
                 "amount_usd": 5,
                 "dip_price": 76.7,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 8
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
@@ -692,7 +716,7 @@
                 "amount_usd": 5,
                 "dip_price": 1,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 8
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
@@ -728,7 +752,7 @@
                 "amount_usd": 5,
                 "dip_price": 135,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 8
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
@@ -776,7 +800,7 @@
                 "amount_usd": 5,
                 "dip_price": 0.45,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 8
+                "smallest_unit": 0
             },
             "dca": {
                 "amount_usd": 10,
