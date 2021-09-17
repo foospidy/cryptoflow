@@ -818,6 +818,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "SHIB": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 0.00000600,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "SKL": {
         "btd": {
             "amount_usd": 5,
@@ -950,6 +962,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "XYO": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 0.03,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "YFI": {
         "btd": {
             "amount_usd": 5,
@@ -966,6 +990,18 @@ DEFAULT_CF_CONFIG = {
         "btd": {
             "amount_usd": 5,
             "dip_price": 175,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "ZEN": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 85,
             "schedule": "*/60 * * * *",
             "smallest_unit": 8
         },
