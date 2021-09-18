@@ -507,6 +507,18 @@
                 "schedule": null
             }
         },
+        "INJ": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 10,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
         "KEEP": {
             "btd": {
                 "amount_usd": 5,
@@ -567,6 +579,18 @@
                 "schedule": null
             }
         },
+        "LUNA": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 30,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
         "MANA": {
             "btd": {
                 "amount_usd": 5,
@@ -597,6 +621,18 @@
                 "dip_price": 1,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 5
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
+        "MCO2": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 10,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
             },
             "dca": {
                 "amount_usd": 10,
@@ -837,6 +873,18 @@
                 "dip_price": 0.35,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 1
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
+        "SLP": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 0.09,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
             },
             "dca": {
                 "amount_usd": 10,
