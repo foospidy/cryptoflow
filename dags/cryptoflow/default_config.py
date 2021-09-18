@@ -223,7 +223,7 @@ DEFAULT_CF_CONFIG = {
             "amount_usd": 5,
             "dip_price": 0.25,
             "schedule": "*/60 * * * *",
-            "smallest_unit": 8
+            "smallest_unit": 1
         },
         "dca": {
             "amount_usd": 10,
@@ -283,7 +283,7 @@ DEFAULT_CF_CONFIG = {
             "amount_usd": 5,
             "dip_price": 5,
             "schedule": "*/60 * * * *",
-            "smallest_unit": 8
+            "smallest_unit": 6
         },
         "dca": {
             "amount_usd": 10,
@@ -511,7 +511,7 @@ DEFAULT_CF_CONFIG = {
             "amount_usd": 5,
             "dip_price": 10,
             "schedule": "*/60 * * * *",
-            "smallest_unit": 8
+            "smallest_unit": 6
         },
         "dca": {
             "amount_usd": 10,
@@ -583,7 +583,7 @@ DEFAULT_CF_CONFIG = {
             "amount_usd": 5,
             "dip_price": 30,
             "schedule": "*/60 * * * *",
-            "smallest_unit": 8
+            "smallest_unit": 6
         },
         "dca": {
             "amount_usd": 10,
