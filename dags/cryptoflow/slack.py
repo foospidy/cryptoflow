@@ -14,7 +14,7 @@ def slack_webhook(text=""):
         response = requests.post(Variable.get("CRYPTOFLOW_SLACK_WEBHOOK"),
                                  headers=headers,
                                  json=data)
-        print("Slack webhook sent: {}".format(response.status_code))
+        print(f"Slack webhook sent: {response.status_code}")
 
     except Exception as err:
-        print("slack_webhook Error: {}".format(err))
+        print(f"slack_webhook Error: {err}")

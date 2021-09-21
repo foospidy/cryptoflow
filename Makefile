@@ -11,6 +11,7 @@ clean:
 	rm -rf .env
 
 lint:
+	.env/bin/pip install --upgrade pylint
 	.env/bin/pylint --init-hook='import sys; sys.path.append("dags/")' btd_template.py
 	.env/bin/pylint --init-hook='import sys; sys.path.append("dags/")' dca_template.py
 	.env/bin/pylint dags/check_orders.py
