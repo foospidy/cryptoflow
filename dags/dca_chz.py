@@ -23,7 +23,7 @@ default_args = {
 }
 
 dag = DAG(
-    dag_id='dca_{}'.format(ASSET.lower()),
+    dag_id=f'dca_{ASSET.lower()}',
     default_args=default_args,
     schedule_interval=SCHEDULE,
     start_date=START_DATE,
@@ -56,10 +56,10 @@ def do_dollar_cost_average():
             response = buymarket.buy_market(best_price, AMOUNT_USD)
 
         if not response['success']:
-            print("{} {}".format(response['reason'], response['message']))
+            print(f"{response['reason']} {response['message']}")
             sys.exit(1)
 
-    return "Order placed: {}".format(return_message)
+    return f"Order placed: {return_message}"
 
 dollar_cost_average = PythonOperator(
     task_id='dollar_cost_average',

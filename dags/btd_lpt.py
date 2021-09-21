@@ -39,7 +39,7 @@ default_args = {
 }
 
 dag = DAG(
-    dag_id='btd_{}'.format(ASSET.lower()),
+    dag_id=f'btd_{ASSET.lower()}',
     default_args=default_args,
     schedule_interval=SCHEDULE,
     start_date=START_DATE,
@@ -64,7 +64,7 @@ def do_is_dip(**kwargs):
     except:
         dip_price = float(kwargs['dip_price'])
 
-    print("DIP PRICE:\t{}".format(dip_price))
+    print(f"DIP PRICE:\t{dip_price}")
 
     buydip = BuyTheDip(ASSET)
     best_price = buydip.get_best_price()
@@ -107,7 +107,7 @@ def do_buy_the_dip(**kwargs):
             response = buydip.buy_dip(best_price, spend, SMALLEST_UNIT)
 
         if not response['success']:
-            print("{} {}".format(response['reason'], response['message']))
+            print(f"{response['reason']} {response['message']}")
             sys.exit(1)
 
     return response['message']
