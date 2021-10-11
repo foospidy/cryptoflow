@@ -218,6 +218,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": "0 5 * * 1"
         }
     },
+    "BTRST": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 8.50,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": "0 5 * * 1"
+        }
+    },
     "CGLD": {
         "btd": {
             "amount_usd": 5,
