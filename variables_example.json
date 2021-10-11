@@ -51,6 +51,18 @@
                 "schedule": "0 5 * * 1"
             }
         },
+        "AGLD": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 3,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": "0 5 * * 1"
+            }
+        },
         "ALGO": {
             "btd": {
                 "amount_usd": 5,
@@ -103,6 +115,18 @@
             "btd": {
                 "amount_usd": 5,
                 "dip_price": 14,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
+        "AVAX": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 40,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 8
             },
@@ -199,6 +223,18 @@
             "btd": {
                 "amount_usd": 5,
                 "dip_price": 33000,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": "0 5 * * 1"
+            }
+        },
+        "BTRST": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 8.5,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 8
             },
@@ -309,6 +345,18 @@
                 "dip_price": 150,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 3
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
+        "DDX": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 5.5,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
             },
             "dca": {
                 "amount_usd": 10,
