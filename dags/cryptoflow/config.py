@@ -8,10 +8,11 @@ from airflow.models import Variable
 from cryptoflow.default_config import DEFAULT_CF_CONFIG
 
 
-# pylint: disable=bare-except
 try:
     CF_CONFIG = json.loads(Variable.get("CRYPTOFLOW_CONFIG"))
-except:
+except Exception as err:
+    print(f"Error getting config: {err}")
+    print("Using default config!")
     CF_CONFIG = DEFAULT_CF_CONFIG
 
 def get_btd_config(asset=None, param="dip_price"):
