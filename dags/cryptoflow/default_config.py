@@ -447,7 +447,7 @@ DEFAULT_CF_CONFIG = {
         }
     },
     "FARM": {
-        "btd": { 
+        "btd": {
             "amount_usd": 5,
             "dip_price": 257,
             "schedule": "*/60 * * * *",
@@ -461,7 +461,7 @@ DEFAULT_CF_CONFIG = {
     "FET": {
         "btd": {
             "amount_usd": 5,
-            "dip_price": 0.39,
+            "dip_price": 0.75,
             "schedule": "*/60 * * * *",
             "smallest_unit": 8
         },
@@ -836,6 +836,18 @@ DEFAULT_CF_CONFIG = {
             "dip_price": 135,
             "schedule": "*/60 * * * *",
             "smallest_unit": 2
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "RAD": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 11,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 6
         },
         "dca": {
             "amount_usd": 10,
