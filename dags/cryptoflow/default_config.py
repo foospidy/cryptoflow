@@ -110,10 +110,34 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "ARPA": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": .12,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "ATOM": {
         "btd": {
             "amount_usd": 5,
             "dip_price": 14,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "AUCTION": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 38,
             "schedule": "*/60 * * * *",
             "smallest_unit": 8
         },
