@@ -47,11 +47,12 @@ def do_check_pairs():
     pairs = coinbasepro.get_products()
 
     for pair in pairs:
-        if pair["base_currency"] not in DEFAULT_CF_CONFIG:
-            msg = f"{pair['base_currency']} ({pair['base_min_size']}) is on coinbasepro "
-            msg += "but not in config, add support!"
-            print(msg)
-            slack_webhook(text=msg)
+        if pair['id'].endswith("-USD"):
+            if pair["base_currency"] not in DEFAULT_CF_CONFIG:
+                msg = f"{pair['base_currency']} ({pair['base_min_size']}) is on coinbasepro "
+                msg += "but not in config, add support!"
+                print(msg)
+                slack_webhook(text=msg)
 
     # Check gemini pairs
     gemini_client = gemini.PrivateClient(Variable.get('GEMINI_KEY'),
