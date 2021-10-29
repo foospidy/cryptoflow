@@ -24,8 +24,9 @@ dag = DAG(
     default_args=default_args,
     schedule_interval="*/5 * * * *",
     start_date=START_DATE,
+    catchup=False,
     dagrun_timeout=timedelta(minutes=1),
-    tags=['crypto', 'orders'],
+    tags=['crypto', 'check', 'orders'],
     params={}
 )
 
