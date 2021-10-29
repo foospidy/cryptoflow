@@ -111,10 +111,34 @@
                 "schedule": null
             }
         },
+        "ARPA": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 0.12,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
         "ATOM": {
             "btd": {
                 "amount_usd": 5,
                 "dip_price": 14,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
+        "AUCTION": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 38,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 8
             },
@@ -291,6 +315,18 @@
                 "schedule": null
             }
         },
+        "COTI": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 0.55,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
         "CRV": {
             "btd": {
                 "amount_usd": 5,
@@ -319,6 +355,18 @@
             "btd": {
                 "amount_usd": 5,
                 "dip_price": 5,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 6
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
+        "CUBE": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 6,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 6
             },
@@ -879,6 +927,18 @@
                 "schedule": null
             }
         },
+        "QUICK": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 443,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
         "RAD": {
             "btd": {
                 "amount_usd": 5,
@@ -1041,6 +1101,18 @@
                 "dip_price": 1.0,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 2
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
+        "SUKU": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 1,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
             },
             "dca": {
                 "amount_usd": 10,
