@@ -626,6 +626,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "LTC": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 190,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 6
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "LUNA": {
         "btd": {
             "amount_usd": 5,
@@ -782,6 +794,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "ORN": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 7.5,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "OXT": {
         "btd": {
             "amount_usd": 5,
@@ -810,6 +834,18 @@ DEFAULT_CF_CONFIG = {
         "btd": {
             "amount_usd": 5,
             "dip_price": 1800,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "PLA": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 1,
             "schedule": "*/60 * * * *",
             "smallest_unit": 8
         },
@@ -854,6 +890,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "RAI": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 3,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 6
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "REN": {
         "btd": {
             "amount_usd": 5,
@@ -870,6 +918,18 @@ DEFAULT_CF_CONFIG = {
         "btd": {
             "amount_usd": 5,
             "dip_price": 25.5,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 6
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "RGT": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 41.5,
             "schedule": "*/60 * * * *",
             "smallest_unit": 6
         },
@@ -1002,6 +1062,30 @@ DEFAULT_CF_CONFIG = {
         "btd": {
             "amount_usd": 5,
             "dip_price": 60,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 3
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "TRIBE": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": .89,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 3
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "TRU": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": .61,
             "schedule": "*/60 * * * *",
             "smallest_unit": 3
         },
