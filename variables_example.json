@@ -627,6 +627,18 @@
                 "schedule": null
             }
         },
+        "LTC": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 190,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 6
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
         "LUNA": {
             "btd": {
                 "amount_usd": 5,
@@ -783,6 +795,18 @@
                 "schedule": null
             }
         },
+        "ORN": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 7.5,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
         "OXT": {
             "btd": {
                 "amount_usd": 5,
@@ -811,6 +835,18 @@
             "btd": {
                 "amount_usd": 5,
                 "dip_price": 1800,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
+        "PLA": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 1,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 8
             },
@@ -855,6 +891,18 @@
                 "schedule": null
             }
         },
+        "RAI": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 3,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 6
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
         "REN": {
             "btd": {
                 "amount_usd": 5,
@@ -871,6 +919,18 @@
             "btd": {
                 "amount_usd": 5,
                 "dip_price": 25.5,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 6
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
+        "RGT": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 41.5,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 6
             },
@@ -1003,6 +1063,30 @@
             "btd": {
                 "amount_usd": 5,
                 "dip_price": 60,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 3
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
+        "TRIBE": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 0.89,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 3
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
+        "TRU": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 0.61,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 3
             },
