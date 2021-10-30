@@ -187,7 +187,7 @@ class CheckOrders():
             if order_parts[0] == "coinbasepro":
                 settled = False
                 status = self.coinbasepro.get_order(order_parts[2])
-                settled = status['settled']
+                settled = status.get("settled", False)
 
             if order_parts[0] == "gemini":
                 status = self.gemini.status_of_order(order_parts[2])
@@ -196,7 +196,7 @@ class CheckOrders():
                 if "is_live" in status and status['is_live'] is False:
                     settled = True
 
-            status_message = f"{order_parts[1]} on {order_parts[0]} - filled ({settled})"
+            status_message = f"{order_parts[1]} on {order_parts[0]} - filled"
             print(status_message)
 
             if settled:
