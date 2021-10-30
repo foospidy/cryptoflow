@@ -638,6 +638,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "GUSD": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 1,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "ICP": {
         "btd": {
             "amount_usd": 5,
