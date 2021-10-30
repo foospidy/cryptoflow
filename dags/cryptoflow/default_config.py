@@ -182,6 +182,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "BADGER": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 26,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "BAL": {
         "btd": {
             "amount_usd": 5,
@@ -255,6 +267,18 @@ DEFAULT_CF_CONFIG = {
         }
     },
     "BTC": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 33000,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": "0 5 * * 1"
+        }
+    },
+    "BTCG": {
         "btd": {
             "amount_usd": 5,
             "dip_price": 33000,
@@ -458,6 +482,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "EFIL": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 55,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 6
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "ENJ": {
         "btd": {
             "amount_usd": 5,
@@ -632,6 +668,18 @@ DEFAULT_CF_CONFIG = {
             "dip_price": 10,
             "schedule": "*/60 * * * *",
             "smallest_unit": 6
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "JASMY": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 1,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
         },
         "dca": {
             "amount_usd": 10,
@@ -1022,6 +1070,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "RARI": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 30,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 6
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "REN": {
         "btd": {
             "amount_usd": 5,
@@ -1202,6 +1262,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "TRAC": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 1,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "TRB": {
         "btd": {
             "amount_usd": 5,
@@ -1256,6 +1328,30 @@ DEFAULT_CF_CONFIG = {
             "dip_price": 24,
             "schedule": "*/60 * * * *",
             "smallest_unit": 6
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "USDT": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 1,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "UST": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 1,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
         },
         "dca": {
             "amount_usd": 10,
@@ -1338,6 +1434,18 @@ DEFAULT_CF_CONFIG = {
         "btd": {
             "amount_usd": 5,
             "dip_price": 30000,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "YFII": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 3800,
             "schedule": "*/60 * * * *",
             "smallest_unit": 8
         },
