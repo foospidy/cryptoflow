@@ -128,7 +128,7 @@
                 "amount_usd": 5,
                 "dip_price": 0.12,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 8
+                "smallest_unit": 1
             },
             "dca": {
                 "amount_usd": 10,
@@ -152,7 +152,7 @@
                 "amount_usd": 5,
                 "dip_price": 38,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 8
+                "smallest_unit": 3
             },
             "dca": {
                 "amount_usd": 10,
@@ -188,7 +188,7 @@
                 "amount_usd": 5,
                 "dip_price": 26,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 8
+                "smallest_unit": 3
             },
             "dca": {
                 "amount_usd": 10,
@@ -294,7 +294,7 @@
         "BTRST": {
             "btd": {
                 "amount_usd": 5,
-                "dip_price": 8.5,
+                "dip_price": 6,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 2
             },
@@ -356,7 +356,7 @@
                 "amount_usd": 5,
                 "dip_price": 0.55,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 8
+                "smallest_unit": 1
             },
             "dca": {
                 "amount_usd": 10,
@@ -692,7 +692,7 @@
                 "amount_usd": 5,
                 "dip_price": 1,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 8
+                "smallest_unit": 0
             },
             "dca": {
                 "amount_usd": 10,
@@ -788,7 +788,7 @@
                 "amount_usd": 5,
                 "dip_price": 190,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 6
+                "smallest_unit": 8
             },
             "dca": {
                 "amount_usd": 10,
@@ -956,7 +956,7 @@
                 "amount_usd": 5,
                 "dip_price": 7.5,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 8
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
@@ -1016,7 +1016,7 @@
                 "amount_usd": 5,
                 "dip_price": 1,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 8
+                "smallest_unit": 1
             },
             "dca": {
                 "amount_usd": 10,
@@ -1050,9 +1050,9 @@
         "QUICK": {
             "btd": {
                 "amount_usd": 5,
-                "dip_price": 443,
+                "dip_price": 435,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 8
+                "smallest_unit": 4
             },
             "dca": {
                 "amount_usd": 10,
@@ -1062,9 +1062,9 @@
         "RAD": {
             "btd": {
                 "amount_usd": 5,
-                "dip_price": 11,
+                "dip_price": 10.6,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 6
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
@@ -1076,7 +1076,7 @@
                 "amount_usd": 5,
                 "dip_price": 3,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 6
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
@@ -1086,9 +1086,9 @@
         "RARI": {
             "btd": {
                 "amount_usd": 5,
-                "dip_price": 30,
+                "dip_price": 20,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 6
+                "smallest_unit": 3
             },
             "dca": {
                 "amount_usd": 10,
@@ -1136,7 +1136,7 @@
                 "amount_usd": 5,
                 "dip_price": 41.5,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 6
+                "smallest_unit": 3
             },
             "dca": {
                 "amount_usd": 10,
@@ -1254,7 +1254,7 @@
         "SUKU": {
             "btd": {
                 "amount_usd": 5,
-                "dip_price": 1,
+                "dip_price": 0.78,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 8
             },
@@ -1304,7 +1304,7 @@
                 "amount_usd": 5,
                 "dip_price": 0.89,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 3
+                "smallest_unit": 1
             },
             "dca": {
                 "amount_usd": 10,
@@ -1316,7 +1316,7 @@
                 "amount_usd": 5,
                 "dip_price": 0.61,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 3
+                "smallest_unit": 1
             },
             "dca": {
                 "amount_usd": 10,
@@ -1352,7 +1352,7 @@
                 "amount_usd": 5,
                 "dip_price": 1,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 8
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
@@ -1364,7 +1364,7 @@
                 "amount_usd": 5,
                 "dip_price": 1,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 8
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
@@ -1391,7 +1391,7 @@
                 "smallest_unit": 8
             },
             "dca": {
-                "amount_usd": 10,
+                "amount_usd": 2,
                 "schedule": null
             }
         },
