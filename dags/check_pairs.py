@@ -62,7 +62,11 @@ def do_check_pairs():
 
     for pair in pairs:
         if pair.endswith("usd"):
-            symbol = pair.replace("usd", "").upper()
+            if pair != "gusd":
+                symbol = pair.replace("usd", "").upper()
+            else:
+                symbol = pair.upper()
+
             if symbol not in DEFAULT_CF_CONFIG:
                 msg = f"{symbol} is on gemini but not in config, add support!"
                 print(msg)
