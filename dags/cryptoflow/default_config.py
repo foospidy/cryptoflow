@@ -350,6 +350,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "CRO": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 0.26,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "CRV": {
         "btd": {
             "amount_usd": 5,
@@ -390,6 +402,18 @@ DEFAULT_CF_CONFIG = {
         "btd": {
             "amount_usd": 5,
             "dip_price": 6,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 6
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "CVC": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 0.50,
             "schedule": "*/60 * * * *",
             "smallest_unit": 6
         },
@@ -738,6 +762,18 @@ DEFAULT_CF_CONFIG = {
         "btd": {
             "amount_usd": 5,
             "dip_price": 17.5,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "LOOM": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 0.10,
             "schedule": "*/60 * * * *",
             "smallest_unit": 8
         },
