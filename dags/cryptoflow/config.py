@@ -7,7 +7,7 @@ from airflow.models import Variable
 
 from cryptoflow.default_config import DEFAULT_CF_CONFIG
 
-
+# pylint: disable=broad-except
 try:
     CF_CONFIG = json.loads(Variable.get("CRYPTOFLOW_CONFIG"))
 except Exception as err:
