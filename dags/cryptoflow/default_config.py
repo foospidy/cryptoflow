@@ -110,10 +110,34 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "API3": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 5.27,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 0
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "ASH": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 25,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "ASM": {
         "btd": {
             "amount_usd": 5,
-            "dip_price": .8,
+            "dip_price": 0.8,
             "schedule": "*/60 * * * *",
             "smallest_unit": 8
         },
@@ -150,6 +174,18 @@ DEFAULT_CF_CONFIG = {
         "btd": {
             "amount_usd": 5,
             "dip_price": 38,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 3
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "AUDIO": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 2.20,
             "schedule": "*/60 * * * *",
             "smallest_unit": 3
         },
@@ -1118,6 +1154,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "RARE": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 1.40,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 3
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "RARI": {
         "btd": {
             "amount_usd": 5,
@@ -1376,6 +1424,18 @@ DEFAULT_CF_CONFIG = {
             "dip_price": 24,
             "schedule": "*/60 * * * *",
             "smallest_unit": 6
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "USDC": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 1,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 2
         },
         "dca": {
             "amount_usd": 10,
