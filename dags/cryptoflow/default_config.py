@@ -554,6 +554,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "ENS": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 45,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "EOS": {
         "btd": {
             "amount_usd": 5,
@@ -654,6 +666,18 @@ DEFAULT_CF_CONFIG = {
         "btd": {
             "amount_usd": 5,
             "dip_price": 1.20,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "GALA": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 0.10,
             "schedule": "*/60 * * * *",
             "smallest_unit": 8
         },
@@ -962,6 +986,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "MUSD": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 1,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "NKN": {
         "btd": {
             "amount_usd": 5,
@@ -1098,6 +1134,18 @@ DEFAULT_CF_CONFIG = {
         "btd": {
             "amount_usd": 5,
             "dip_price": 0.27,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "POWR": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 0.60,
             "schedule": "*/60 * * * *",
             "smallest_unit": 8
         },
