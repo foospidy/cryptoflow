@@ -555,6 +555,18 @@
                 "schedule": null
             }
         },
+        "ENS": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 45,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
         "EOS": {
             "btd": {
                 "amount_usd": 5,
@@ -655,6 +667,18 @@
             "btd": {
                 "amount_usd": 5,
                 "dip_price": 1.2,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
+        "GALA": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 0.1,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 8
             },
@@ -963,6 +987,18 @@
                 "schedule": null
             }
         },
+        "MUSD": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 1,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
         "NKN": {
             "btd": {
                 "amount_usd": 5,
@@ -1099,6 +1135,18 @@
             "btd": {
                 "amount_usd": 5,
                 "dip_price": 0.27,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
+        "POWR": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 0.6,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 8
             },
