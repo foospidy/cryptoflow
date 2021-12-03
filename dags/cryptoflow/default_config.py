@@ -278,6 +278,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "BICO": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 8.10,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "BNT": {
         "btd": {
             "amount_usd": 5,
