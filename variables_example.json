@@ -284,7 +284,7 @@
                 "amount_usd": 5,
                 "dip_price": 8.1,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 2
+                "smallest_unit": 8
             },
             "dca": {
                 "amount_usd": 10,
@@ -393,6 +393,18 @@
                 "dip_price": 0.55,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 1
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
+        "COVAL": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 0.05,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
             },
             "dca": {
                 "amount_usd": 10,
@@ -663,6 +675,18 @@
                 "schedule": null
             }
         },
+        "FOX": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 0.9,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
         "FTM": {
             "btd": {
                 "amount_usd": 5,
@@ -753,6 +777,18 @@
                 "dip_price": 125,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 4
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
+        "IDEX": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 0.35,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
             },
             "dca": {
                 "amount_usd": 10,
@@ -1143,6 +1179,18 @@
                 "schedule": null
             }
         },
+        "POLS": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 3.9,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
         "POLY": {
             "btd": {
                 "amount_usd": 5,
@@ -1383,6 +1431,18 @@
                 "schedule": null
             }
         },
+        "SPELL": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 0.015,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
         "STORJ": {
             "btd": {
                 "amount_usd": 5,
@@ -1399,6 +1459,18 @@
             "btd": {
                 "amount_usd": 5,
                 "dip_price": 0.78,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 8
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
+        "SUPER": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 1.6,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 8
             },
