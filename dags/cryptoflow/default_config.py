@@ -398,6 +398,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "COVAL": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 0.05,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "CRO": {
         "btd": {
             "amount_usd": 5,
@@ -662,6 +674,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "FOX": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 0.90,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "FTM": {
         "btd": {
             "amount_usd": 5,
@@ -752,6 +776,18 @@ DEFAULT_CF_CONFIG = {
             "dip_price": 125,
             "schedule": "*/60 * * * *",
             "smallest_unit": 4
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "IDEX": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 0.35,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
         },
         "dca": {
             "amount_usd": 10,
@@ -1142,6 +1178,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "POLS": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 3.90,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "POLY": {
         "btd": {
             "amount_usd": 5,
@@ -1382,6 +1430,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "SPELL": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 0.015,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "STORJ": {
         "btd": {
             "amount_usd": 5,
@@ -1398,6 +1458,18 @@ DEFAULT_CF_CONFIG = {
         "btd": {
             "amount_usd": 5,
             "dip_price": 0.78,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "SUPER": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 1.60,
             "schedule": "*/60 * * * *",
             "smallest_unit": 8
         },
