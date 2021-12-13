@@ -290,6 +290,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "BLZ": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 0.24,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "BNT": {
         "btd": {
             "amount_usd": 5,
@@ -722,6 +734,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "GODS": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 4.50,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "GRT": {
         "btd": {
             "amount_usd": 5,
@@ -788,6 +812,18 @@ DEFAULT_CF_CONFIG = {
             "dip_price": 0.35,
             "schedule": "*/60 * * * *",
             "smallest_unit": 1
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "IMX": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 5.00,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
         },
         "dca": {
             "amount_usd": 10,
@@ -990,6 +1026,18 @@ DEFAULT_CF_CONFIG = {
         "btd": {
             "amount_usd": 5,
             "dip_price": 10,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "MDT": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 0.07,
             "schedule": "*/60 * * * *",
             "smallest_unit": 8
         },
@@ -1280,6 +1328,18 @@ DEFAULT_CF_CONFIG = {
             "dip_price": 20,
             "schedule": "*/60 * * * *",
             "smallest_unit": 3
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "RBN": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 1.60,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
         },
         "dca": {
             "amount_usd": 10,
