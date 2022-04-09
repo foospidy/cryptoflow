@@ -758,6 +758,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "FXS": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 19,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "GALA": {
         "btd": {
             "amount_usd": 5,
