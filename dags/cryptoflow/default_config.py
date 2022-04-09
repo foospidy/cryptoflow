@@ -1142,6 +1142,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "MPL": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 30,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 2
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "MUSD": {
         "btd": {
             "amount_usd": 5,
