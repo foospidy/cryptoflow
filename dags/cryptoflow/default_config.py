@@ -974,6 +974,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "LQTY": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 2.15,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "LRC": {
         "btd": {
             "amount_usd": 5,
