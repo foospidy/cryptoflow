@@ -794,6 +794,30 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "GFI": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 2.25,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 2
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "GLM": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 0.35,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 2
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "GMT": {
         "btd": {
             "amount_usd": 5,
@@ -824,6 +848,18 @@ DEFAULT_CF_CONFIG = {
             "dip_price": 0.82,
             "schedule": "*/60 * * * *",
             "smallest_unit": 1
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "GST": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 3.50,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 2
         },
         "dca": {
             "amount_usd": 10,
