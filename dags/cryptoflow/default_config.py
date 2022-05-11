@@ -50,6 +50,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": "0 5 * * 1"
         }
     },
+    "AERGO": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 0.15,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 2
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": "0 5 * * 1"
+        }
+    },
     "AGLD": {
         "btd": {
             "amount_usd": 5,
@@ -60,6 +72,30 @@ DEFAULT_CF_CONFIG = {
         "dca": {
             "amount_usd": 10,
             "schedule": "0 5 * * 1"
+        }
+    },
+    "AIOZ": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 0.10,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 2
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": "0 5 * * 1"
+        }
+    },
+    "ALCX": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 300,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 6
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
         }
     },
     "ALGO": {
@@ -74,12 +110,12 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
-    "ALCX": {
+    "ALICE": {
         "btd": {
             "amount_usd": 5,
-            "dip_price": 300,
+            "dip_price": 2.75,
             "schedule": "*/60 * * * *",
-            "smallest_unit": 6
+            "smallest_unit": 2
         },
         "dca": {
             "amount_usd": 10,
@@ -212,6 +248,18 @@ DEFAULT_CF_CONFIG = {
             "dip_price": 40,
             "schedule": "*/60 * * * *",
             "smallest_unit": 3
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "AVT": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 1.00,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 2
         },
         "dca": {
             "amount_usd": 10,
