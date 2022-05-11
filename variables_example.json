@@ -51,6 +51,18 @@
                 "schedule": "0 5 * * 1"
             }
         },
+        "AERGO": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 0.15,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 2
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": "0 5 * * 1"
+            }
+        },
         "AGLD": {
             "btd": {
                 "amount_usd": 5,
@@ -61,6 +73,30 @@
             "dca": {
                 "amount_usd": 10,
                 "schedule": "0 5 * * 1"
+            }
+        },
+        "AIOZ": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 0.1,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 2
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": "0 5 * * 1"
+            }
+        },
+        "ALCX": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 300,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 6
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
             }
         },
         "ALGO": {
@@ -75,12 +111,12 @@
                 "schedule": null
             }
         },
-        "ALCX": {
+        "ALICE": {
             "btd": {
                 "amount_usd": 5,
-                "dip_price": 300,
+                "dip_price": 2.75,
                 "schedule": "*/60 * * * *",
-                "smallest_unit": 6
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
@@ -213,6 +249,18 @@
                 "dip_price": 40,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 3
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
+        "AVT": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 1.0,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
