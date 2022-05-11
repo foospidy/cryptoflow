@@ -1039,7 +1039,7 @@ DEFAULT_CF_CONFIG = {
             "amount_usd": 5,
             "dip_price": 5.00,
             "schedule": "*/60 * * * *",
-            "smallest_unit": 8
+            "smallest_unit": 2
         },
         "dca": {
             "amount_usd": 10,
