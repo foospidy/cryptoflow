@@ -1178,10 +1178,46 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "JAM": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 0.60,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 2
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "KP3R": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 98,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 2
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "LCX": {
         "btd": {
             "amount_usd": 5,
             "dip_price": 1,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "LDO": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 1.30,
             "schedule": "*/60 * * * *",
             "smallest_unit": 8
         },
@@ -1322,6 +1358,18 @@ DEFAULT_CF_CONFIG = {
             "schedule": None
         }
     },
+    "MC": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 1.00,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 2
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
     "MCO2": {
         "btd": {
             "amount_usd": 5,
@@ -1340,6 +1388,42 @@ DEFAULT_CF_CONFIG = {
             "dip_price": 0.07,
             "schedule": "*/60 * * * *",
             "smallest_unit": 8
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "METIS": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 21,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 2
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "MIM": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 1.00,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 2
+        },
+        "dca": {
+            "amount_usd": 10,
+            "schedule": None
+        }
+    },
+    "MINA": {
+        "btd": {
+            "amount_usd": 5,
+            "dip_price": 0.90,
+            "schedule": "*/60 * * * *",
+            "smallest_unit": 2
         },
         "dca": {
             "amount_usd": 10,
