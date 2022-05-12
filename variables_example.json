@@ -807,6 +807,18 @@
                 "schedule": null
             }
         },
+        "FIDA": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 0.7,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 2
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
         "FIL": {
             "btd": {
                 "amount_usd": 5,
@@ -885,6 +897,18 @@
                 "dip_price": 19,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 8
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
+        "GAL": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 3.0,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
@@ -1011,6 +1035,18 @@
                 "schedule": null
             }
         },
+        "HIGH": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 1.7,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 2
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
         "ICP": {
             "btd": {
                 "amount_usd": 5,
@@ -1047,6 +1083,18 @@
                 "schedule": null
             }
         },
+        "INDEX": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 5.0,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 2
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
         "IOTX": {
             "btd": {
                 "amount_usd": 5,
@@ -1065,6 +1113,18 @@
                 "dip_price": 10,
                 "schedule": "*/60 * * * *",
                 "smallest_unit": 6
+            },
+            "dca": {
+                "amount_usd": 10,
+                "schedule": null
+            }
+        },
+        "INV": {
+            "btd": {
+                "amount_usd": 5,
+                "dip_price": 89,
+                "schedule": "*/60 * * * *",
+                "smallest_unit": 2
             },
             "dca": {
                 "amount_usd": 10,
